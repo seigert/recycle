@@ -1,0 +1,17 @@
+.DS_Store
+
+# sbt specific
+.bsp/
+.scala-build/
+target/
+
+# bloop & metals specific
+.bloop/
+.metals/
+metals.sbt
+
+# IDEA specific
+.idea/
+
+# VSCode specific
+.vscode/
