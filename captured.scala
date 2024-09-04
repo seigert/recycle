@@ -132,7 +132,7 @@ object Main {
   //   val print = manage:
   //     val log = acquire(logger("log"))
   //     (s: String) => log.printLine(s)
-
+  //
   //   print(s"will sum $n ranges [i..$n] where i in [0..$n]")
   //   (0 to n).map: i =>
   //       print(s"will sum range [$i, $n]")
@@ -143,8 +143,8 @@ object Main {
     Printer.expr(sum(2, 2))
     // Printer.expr(sum_error(2, 2))
 
-    Printer.expr(sumN(10))
-    Printer.expr(sumN_delay(10))
-    // Printer.expr(sumN_error(10))
+    Printer.expr(sumN(3))
+    Printer.expr(sumN_delay(3))
+    // Printer.expr(sumN_error(3))
 
 }
